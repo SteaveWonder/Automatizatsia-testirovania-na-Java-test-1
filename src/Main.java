@@ -11,7 +11,7 @@ public class Main {
         items.add(new Magazine("03", "GameInformer", 398));
         items.add(new Magazine("04", "EDGE", 100));
         items.add(new Letter("05", "Van Gogh"));
-        items.add(new Letter("06", "Sokrat"));
+        items.add(new Letter("06", "Sokrate"));
 
         LibraryRegistry registry = new LibraryRegistry(items);
         LibrarySearchService librarySearchService = new LibrarySearchService(registry);
